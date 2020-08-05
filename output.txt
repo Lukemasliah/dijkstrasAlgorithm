@@ -1,0 +1,30 @@
+$ g++ ass3.cpp
+$ ./a.out
+
+Display Weights for first 5 Vertices
+----------------------------------------
+a:  c(19)  f(34)  i(58)  l(94)  o(108)  p(104)
+b:  a(46)  d(47)  e(36)  j(82)  p(88)  q(91)  r(96)
+c:  h(57)  j(49)  l(84)  m(106)
+d:  j(44)  l(82)  r(80)
+e:  d(22)  q(88)  r(79)  t(93)
+
+Shortest Path using Dijkstra alg:
+a --> l --> t
+Path distance: 130
+Number of vertices visited: 15
+
+Second shortest path using Dijkstra alg:
+a --> l --> q --> t
+Path distance: 131
+Number of vertices visited 31
+
+Shortest Path using A* alg:
+a --> l --> t
+Path distance: 130
+Number of vertices visited: 10
+
+Second shortest path using A* alg:
+a --> l --> q --> t
+Path distance: 131
+Number of vertices visited 22
